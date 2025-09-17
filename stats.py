@@ -15,11 +15,6 @@ def sort_on(d_list):
     return d_list["num"]
 
 def sort_dictionary(dictionary):
-    print("============ BOOKBOT ============")
-    print("Analyzing book found at GET VIA VARIABLE...")
-    print("----------- Word Count ----------")
-    print("Found GET VIA VARIABLE total words")
-    print("--------- Character Count -------")
     l = []
     for key in dictionary:
         new_d = {"char": key, "num": dictionary[key]}
